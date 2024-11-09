@@ -1,0 +1,141 @@
+
+/* 
+? this css file contains styling for specific parts of the app
+*/
+
+.App {
+  background-color: white;
+  text-align: center;
+  width: 500px;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0px 0px 10px 1px rgba(111,111,111,0.4);
+}
+
+/*! ************ css for header **********/
+
+header {
+  height: 50px;
+  background-color: blue;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  right: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*! ********* css for nav  *********/
+
+nav {
+  width: 100%;
+  margin-top: 50px;
+  height: 60px;
+  padding: 8px 0;
+  box-shadow: 0px 0px 4px -1px  var(--primary-red-color);
+}
+
+nav > div {
+  margin-top: 10px;
+}
+
+nav > div > label {
+  margin: 2px 10px;
+  font-size: 1.2rem;
+  color: var(--primary-blue-color);
+}
+
+input[type=text] {
+  height: 20px;
+  margin: 2px 2px;
+  border-radius: 4px;
+  border: 1px solid blue;
+  padding: 2px 5px;
+}
+
+.submit-button {
+  background-color: var(--primary-blue-color);
+  border: none;
+  border-radius: 4px;
+  padding: 5px 5px;
+  color: white;
+  font-weight: 700;
+}
+
+
+/*! ********* css for main  ***/
+
+main {
+  height: 400px;
+  overflow-y:  auto;
+}
+
+.task-item {
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  /* border: none; */
+  border: 1px solid grey;
+  margin: 10px 0 10px 25px;
+}
+
+.task-item > h3 {
+  text-transform: capitalize;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  height: 40px;
+  background-color: var(--primary-blue-color);
+  margin: 0;
+}
+
+.task-item > p {
+  height: auto;
+  margin: 0;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.controls > div {
+  display: flex;
+  justify-content: center;
+}
+
+.controls > div > button {
+  border: none;
+  height: 30px;
+  color: white;
+  /* margin-bottom: -10px; */
+  width: 50%;
+  background-color: var(--primary-blue-color);
+}
+
+.controls > div > button:first-child {
+  border-right: 1px solid white;
+  border-radius: 0 0 0 10px;
+} 
+
+.controls > div > button:last-child {
+  border-left: 1px solid white;
+  border-radius: 0 0 10px 0;
+} 
+
+
+/*! ****** css for footer ********/
+
+footer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+footer > img {
+  width: 80px;
+}

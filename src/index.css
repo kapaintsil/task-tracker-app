@@ -1,0 +1,24 @@
+ /*
+ ? This css file contains the general styling that apply to the entire 
+ ? or most parts of the app  
+ */
+
+:root {
+  --primary-red-color: rgb(255, 26, 26);
+  --primary-blue-color: blue;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button, input[type=radio], input[type=checkbox], label {
+  cursor: pointer;
+}
+
+input[type=radio], input[type=checkbox] {
+  accent-color: var(--primary-red-color);
+}
