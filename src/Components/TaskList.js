@@ -1,12 +1,11 @@
-// src/components/TaskList.js
-import React from "react";
 import TaskItem from "./TaskItem";
 
+// TaskList component renders a list of tasks by mapping over the `tasks` array
 const TaskList = ({ 
-  tasks, 
-  editTask, 
-  deleteTask, 
-  toggleCompletion 
+  tasks,                // Array of tasks to display
+  editTask,            // Function to handle editing a task
+  deleteTask,         // Function to handle deleting a task
+  toggleCompletion   // Function to handle toggling task completion
 }) => {
   return (
     <div>

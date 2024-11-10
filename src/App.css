@@ -1,8 +1,8 @@
-
 /* 
 ? this css file contains styling for specific parts of the app
 */
 
+/* Styling for the main app container */
 .App {
   background-color: white;
   text-align: center;
@@ -16,6 +16,7 @@
 
 /*! ************ css for header **********/
 
+/* Styling for the header */
 header {
   height: 50px;
   background-color: blue;
@@ -32,24 +33,28 @@ header {
 
 /*! ********* css for nav  *********/
 
+/* Styling for the navigation bar */
 nav {
   width: 100%;
   margin-top: 50px;
   height: 60px;
   padding: 8px 0;
-  box-shadow: 0px 0px 4px -1px  var(--primary-red-color);
+  box-shadow: 0px 0px 4px -1px var(--primary-red-color);
 }
 
+/* Styling for the div inside the navigation bar */
 nav > div {
   margin-top: 10px;
 }
 
+/* Styling for the labels inside the navigation bar */
 nav > div > label {
   margin: 2px 10px;
   font-size: 1.2rem;
   color: var(--primary-blue-color);
 }
 
+/* Styling for text input fields */
 input[type=text] {
   height: 20px;
   margin: 2px 2px;
@@ -58,6 +63,13 @@ input[type=text] {
   padding: 2px 5px;
 }
 
+/* Styling for focused text input fields */
+input[type=text]:focus {
+  outline: none;
+  border: 1px solid var(--primary-blue-color);
+}
+
+/* Styling for the submit button */
 .submit-button {
   background-color: var(--primary-blue-color);
   border: none;
@@ -67,75 +79,103 @@ input[type=text] {
   font-weight: 700;
 }
 
-
 /*! ********* css for main  ***/
 
+/* Styling for the main content area */
 main {
   height: 400px;
-  overflow-y:  auto;
+  overflow-y: auto;
 }
 
+/* Styling for individual task items */
 .task-item {
   border-radius: 10px;
   width: 450px;
   height: auto;
-  /* border: none; */
   border: 1px solid grey;
   margin: 10px 0 10px 25px;
 }
 
+/* Styling for the task item headers */
 .task-item > h3 {
   text-transform: capitalize;
   border-radius: 10px 10px 0 0;
   color: white;
   height: 40px;
-  background-color: var(--primary-blue-color);
+  background-color: var(--primary-red-color);
   margin: 0;
 }
 
+/* Styling for the task item paragraphs */
 .task-item > p {
+  font: 'type-writer';
   height: auto;
   margin: 0;
 }
 
+/* Styling for the control buttons */
 .controls {
   display: flex;
   flex-direction: column;
 }
 
+/* Styling for the divs inside the controls */
 .controls > div {
   display: flex;
   justify-content: center;
 }
 
+/* Styling for the buttons inside the controls */
 .controls > div > button {
   border: none;
   height: 30px;
   color: white;
-  /* margin-bottom: -10px; */
   width: 50%;
   background-color: var(--primary-blue-color);
 }
 
+/* Styling for the hover state of the buttons */
+.controls > div > button:hover {
+  transition: 0.25s;
+  background-color: var(--button-hover-color);
+}
+
+/* Styling for the active state of the buttons */
+.controls > div > button:active {
+  transition: 0.25s;
+  border: 1px solid blue;
+  background-color: white;
+  color: blue;
+}
+
+/* Styling for the first button in the controls */
 .controls > div > button:first-child {
   border-right: 1px solid white;
   border-radius: 0 0 0 10px;
 } 
 
+/* Styling for the last button in the controls */
 .controls > div > button:last-child {
   border-left: 1px solid white;
   border-radius: 0 0 10px 0;
 } 
 
-
 /*! ****** css for footer ********/
 
+/* Styling for the footer */
 footer {
   align-items: center;
   justify-content: center;
   display: flex;
 }
 
+/* Styling for the paragraphs inside the footer */
+footer > p {
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
+
+/* Styling for the images inside the footer */
 footer > img {
   width: 80px;
 }
