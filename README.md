@@ -1,6 +1,10 @@
 # task-tracker-app 
-A react Task Tracker Application. The application enable users to add, view, and delete tasks.
+A react Task Tracker Application. <br /> 
+The application enable users to <b>add</b>,<b> view</b>, <b> delete</b> <b> edit</b> and <b> filter </b> tasks.
 
+## App Link:
+
+You can access the app on: [https://task-tracker-app-two.vercel.app/]
 
 # Getting Started with Create React App
 
