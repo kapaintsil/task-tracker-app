@@ -210,7 +210,8 @@ footer > img {
   }
   /* Styling for text input fields on small screens */
   input[type=text] {
-    width: 140px;
+    margin-right: 5px;
+    width: 110px;
   }
 
   button[type=submit] {
@@ -220,8 +221,6 @@ footer > img {
 
   /* Styling for the main content area */
   main {
-    display: flex; 
-    justify-content: center;
     height: 80%;
   }
 
