@@ -171,6 +171,7 @@ footer {
 
 /* Styling for the paragraphs inside the footer */
 footer > p {
+  color: gray;
   margin-top: 20px;
   font-size: 0.8rem;
 }
