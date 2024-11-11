@@ -4,7 +4,7 @@ The application enable users to <b>add</b>,<b> view</b>, <b> delete</b> <b> edit
 
 ## App Link:
 
-You can access the app on: [https://task-tracker-app-two.vercel.app/]
+You can access the app on: <a href="https://task-tracker-app-two.vercel.app/" target="_blank"> The Task Tracker App</a>
 
 # Getting Started with Create React App
 
