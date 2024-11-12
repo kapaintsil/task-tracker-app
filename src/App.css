@@ -19,7 +19,7 @@
 /* Styling for the header */
 header {
   height: 50px;
-  background-color: blue;
+  background-color: var(--primary-blue-color);
   border-radius: 10px 10px 0 0;
   color: white;
   position: absolute;
