@@ -8,7 +8,7 @@
 /* Define CSS variables for primary colors */
 :root {
   --primary-red-color: rgb(255, 26, 26);
-  --primary-blue-color: blue;
+  --primary-blue-color: rgb(77, 77, 255);
   --button-hover-color: rgb(51, 51, 255);
 }
 
