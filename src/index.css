@@ -9,7 +9,7 @@
 :root {
   --primary-red-color: rgb(255, 26, 26);
   --primary-blue-color: rgb(40, 82, 166);
-  --button-hover-color: rgb(51, 51, 255);
+  --button-hover-color: rgb(30, 61, 123);
 }
 
 /* Apply general styling to the body */
@@ -39,7 +39,7 @@ button:hover {
 /* Apply styles to button when active */
 button:active {
   transition: 0.25s;
-  border: 1px solid blue;
+  border: 1px solid var(--primary-blue-color);
   background-color: white;
-  color: blue;
+  color: var(--primary-blue-color);
 }
