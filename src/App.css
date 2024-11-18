@@ -31,6 +31,13 @@ header {
   align-items: center;
 }
 
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
 /*! ******************** css for nav  ***************************************/
 
 /* Styling for the navigation bar */
@@ -42,6 +49,7 @@ nav {
   padding: 8px 0;
   box-shadow: 0px 0px 4px -1px var(--primary-red-color);
 }
+
 
 /* Styling for the div inside the navigation bar */
 nav > div {
@@ -208,6 +216,7 @@ footer > img {
     position: fixed;
     border-radius: 0;
   }
+
   /* Styling for text input fields on small screens */
   input[type=text] {
     margin-right: 5px;
