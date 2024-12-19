@@ -104,7 +104,7 @@ function App() {
               value="all"
               checked={filterStatus === "all"}
               onChange={() => setFilterStatus("all")}
-            />{" "}
+            />
             All
           </label>
           <label>
@@ -113,7 +113,7 @@ function App() {
               value="completed"
               checked={filterStatus === "completed"}
               onChange={() => setFilterStatus("completed")}
-            />{" "}
+            />
             Completed
           </label>
           <label>
@@ -122,7 +122,7 @@ function App() {
               value="pending"
               checked={filterStatus === "pending"}
               onChange={() => setFilterStatus("pending")}
-            />{" "}
+            />
             Pending
           </label>
         </div>
