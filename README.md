@@ -1,6 +1,5 @@
 # task-tracker-app 
-A react Task Tracker Application developed by: Kwame Adonoo Paintsil <br /> 
-Sponsored by: <a href="https://verifibuy.com/" target="_blank">VerifiBuy</a>.  <br /> 
+A react Task Tracker Application
 The application enable users to <b>add</b>,<b> view</b>, <b> delete</b> <b> edit</b> and <b> filter </b> tasks.
 
 ## App Link:
