@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import TaskForm from "./Components/TaskForm";
 import TaskList from "./Components/TaskList";
 import "./App.css";
+import Footer from "./Components/Footer";
+import Filter from "./Components/Filter";
 
 function App() {
   
@@ -97,35 +99,10 @@ function App() {
           addTask={addOrEditTask}
           editMode={editMode}
         />
-        <div>
-          <label>
-            <input
-              type="radio"
-              value="all"
-              checked={filterStatus === "all"}
-              onChange={() => setFilterStatus("all")}
-            />
-            All
-          </label>
-          <label>
-            <input
-              type="radio"
-              value="completed"
-              checked={filterStatus === "completed"}
-              onChange={() => setFilterStatus("completed")}
-            />
-            Completed
-          </label>
-          <label>
-            <input
-              type="radio"
-              value="pending"
-              checked={filterStatus === "pending"}
-              onChange={() => setFilterStatus("pending")}
-            />
-            Pending
-          </label>
-        </div>
+        <Filter
+          setFilterStatus={setFilterStatus}
+          filterStatus={filterStatus}
+        />
       </nav>
       <main>
         <TaskList
@@ -135,10 +112,7 @@ function App() {
           toggleCompletion={toggleCompletion}
         />
       </main>
-      <footer>
-        <p>sponsored by:</p>
-        <img src="../images/verifybuy-logo.png" alt="verifybuy-logo"/>
-      </footer>
+      <Footer />
     </div>
   );
 }

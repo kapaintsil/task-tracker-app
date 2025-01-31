@@ -174,22 +174,24 @@ main {
 /*! *********************** css for footer ***************************/
 
 /* Styling for the footer */
-footer {
+footer div:first-child {
+  align-items: center;
+  color: grey;
+  font-size: 0.7rem;
+}
+
+footer div:last-child {
+  display: flex;
   align-items: center;
   justify-content: center;
-  display: flex;
+  gap: 10px;
+  margin-top: -5px;
+  margin-bottom: 10px;
 }
 
-/* Styling for the paragraphs inside the footer */
-footer > p {
-  color: gray;
-  margin-top: 20px;
-  font-size: 0.8rem;
-}
-
-/* Styling for the images inside the footer */
-footer > img {
-  width: 80px;
+footer div:last-child i {
+  font-size: 20px;
+  color: var(--primary-blue-color);
 }
 
 /* Media query for screens with a maximum width of 500px */
